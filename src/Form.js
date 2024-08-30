@@ -10,8 +10,9 @@ export const Form = () => {
 function onChange(e)
 {
   setValues({...value, [e.target.name]: e.target.value })
+  
 }
-// console.log(setValues.value); value show undefined 
+// console.log(setValues.value); value show undefined .....
 function onSubmit(e)
 {
  e.preventDefault()
